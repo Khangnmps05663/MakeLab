@@ -7,4 +7,7 @@ Cat.prototype.eat = function(){
 Cat.prototype.run = function(){
     console.log('Run');
 }
+Cat.prototype.sleep = function(){
+    console.log('Sleep');
+}
 module.exports = Cat;
