@@ -4,4 +4,7 @@ function Cat(name){
 Cat.prototype.eat = function(){
     this.name = 'zxcvxz';
 }
+Cat.prototype.run = function(){
+    console.log('Run');
+}
 module.exports = Cat;
